@@ -10,6 +10,9 @@
   "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "LICENSE"
+  ],
   "scripts": {
     "lint": "eslint --cache *.js",
     "test": "npm run lint && jest --coverage"
